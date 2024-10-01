@@ -3,7 +3,7 @@ from random import randint
 from turtle import Turtle,Screen
 import random
 ycor=-200
-
+print("Hello World")
 def init(color):
     tur=Turtle()
     tur.shape('turtle')
