@@ -3,7 +3,7 @@ from random import randint
 from turtle import Turtle,Screen
 import random
 ycor=-200
-print("Hello World")
+
 def init(color):
     tur=Turtle()
     tur.shape('turtle')
@@ -13,6 +13,7 @@ def init(color):
     tur.goto(-200,ycor)
     ycor+=80
     return tur
+print ("hello")
 
 def run(tur):
     tur.forward((random.randint(1,10)))
